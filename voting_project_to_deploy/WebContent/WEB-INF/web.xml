@@ -1,0 +1,16 @@
+<web-app >
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>vote</servlet-name>
+  	<servlet-class>voting_project_to_deploy.VoteSer</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>vote</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

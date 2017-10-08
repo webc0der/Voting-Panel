@@ -1,0 +1,149 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+div.bg {
+	/* The image used */
+	background-image: url("background.jpg");
+	/* Full height */
+	height: 100%;
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+div.logo {
+	
+	background-repeat: no-repeat;
+	width: 313px; 
+}
+
+div.container{
+	margin: auto;
+	width: 40%;
+	height: 85%;
+	margin-top: -20px;
+	border: 8px solid #73AD21;
+	background: rgba(0,0,0, .8);
+}
+
+ul {
+	display:table; 
+	//margin:0 auto;
+	padding-top: 3px;
+	padding-left: 88px;
+	color: white;
+}
+
+dt {
+	font-size: medium;
+}
+
+h3.des {
+	font-style: italic;
+}
+
+h2.can {
+	color: #ff6600;
+	font-size: 30px;
+	margin-bottom: -12px;
+}
+
+dd {
+	color: #ffff00;
+	font-size: 22px
+}
+
+dd:before {
+	content: '"';
+	color: #ff6600;
+	font-size: 25px;
+}
+
+dd:after {
+	content: '"';
+	color: #ff6600;
+	font-size: 25px;
+}
+
+#sub {
+	margin-left: 132px;
+	background-color: #ff6600;
+    border: 2px solid #ffff00;
+    color: #ffff00;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#sub:hover {
+	margin-left: 132px;
+	background-color: #ffff00;
+    border: 2px solid #ff6600;
+    color: #ff6600;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+h2.head {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: -19px;
+	background-color: rgba(255, 102, 0, .6);
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+	color: #ffff00;
+}
+
+#gSignIn {
+	//background-color: red;
+	margin-right: 200px;
+	margin-left: 190px;
+	margin-bottom: 20px;
+}
+
+.mass h3 {
+	background-color: rgba(255, 255, 0, .8);
+	margin-left: 75px;
+	margin-right: 75px;
+	text-align: center;
+	color: rgb(255, 102, 0);
+	border-radius: 10px;
+	font-size-adjust: inherit; 
+}
+
+#SigO {
+	margin-left: 218px;
+	margin-top: 150px;
+	background-color: rgb(63, 133, 244);
+    border: 2px solid white;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#SigO:hover {
+	margin-left: 218px;
+	margin-top: 150px;
+	background-color: white;
+    border: 2px solid rgb(63, 133, 244);
+    color: rgb(63, 133, 244);
+    padding: 9px 20px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logo h3 {
+	color: rgb(13, 90, 219);
+	margin-left: 1000px;
+	margin-right: -1000px;
+	margin-top: -105px;
+	padding-right: -10;
+}
